@@ -1,0 +1,695 @@
+*{
+    
+    list-style: none;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: normal;
+    margin-left: 0;
+    
+
+}
+body{
+position:relative;
+}
+
+
+.parent-cont .aside   section{
+display:flex;
+overflow: hidden;
+flex-wrap: wrap;
+
+ }
+
+
+nav{
+ 
+    background-color: rgb(63, 2, 63);
+    height:35px;
+    
+}
+input {
+  
+  height: 25px; 
+  position: relative;
+  bottom: -5px;
+  right: -300px;
+  background-color:rgba(104, 71, 104, 0.882);
+  width: 700px;
+  border-radius: 5px;
+  
+}
+.search{
+   position: relative;
+   left: 980px;
+top: -48px;
+
+  }
+  .clock{
+   position: relative;
+   top: -80px;
+   left: 250px;
+  }
+  .option{
+   position: relative;
+   top:-85px;
+   left: 915px;
+   height: 20px;
+  }
+  .qmark{
+position: relative;
+top: -80px;
+left: 1380px;
+  }
+#text1{
+    background-image:url(image/search.png)
+}
+
+ ::placeholder{
+ color: white;
+ 
+ 
+}
+ .cont{
+    border: 1px solid;
+    height:750px;
+    width:300px;
+    background-color: rgb(63, 2, 63);
+    border-right: none;
+    
+}
+.box-c{
+    border: 1px solid blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -18px;
+    left: 98%;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: large;
+    border-radius: 3px;
+    
+    
+}
+.online{
+    border: 1px solid green;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: -25px;
+    left: 99%;
+    border-radius: 5px;
+    background-color: rgb(4, 169, 4);
+
+
+}
+.line{
+    border: 1px solid green;
+    width: 8px;
+    height: 8px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    border-radius: 10px;
+    background-color: rgb(4, 169, 4);
+
+ 
+}
+
+.box-a{
+    border: 1px solid blue;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 37px;
+    left: 10px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 10px;
+    
+    border-radius: 3px;
+    
+}
+.rad5{
+   background-color: rgb(63, 2, 63);
+}
+h3{
+    font-family: normal;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    top: 15px;
+    
+}
+.aside{
+border: 1px solid;
+width: 700px;
+position: relative;
+left: 300px;
+bottom: 750px;
+height: 700px;
+
+}
+    
+ 
+
+   .onl{
+    border: 1px solid;
+    width:55px;
+    height: 20px;
+    position: relative;
+    left: 200px;
+    top: -20px;
+    border-radius:10px ;
+    
+ }
+ span .onl .happy{
+    position: relative;
+    left: 20px;
+    
+ }
+  .image{
+    position: relative;
+    top: -24px;
+    left: 255px;
+    
+  
+    
+ }
+ .icon{
+    position: relative;
+    top: -20px;
+    left: 200px;
+    width: 70px;
+ }
+ span{
+    color: white;
+    position: relative;
+    left: 20px;
+    top:13px;
+ }
+ #block{
+    position: relative;
+    left: 35px;
+ }
+ img{
+    position: relative;
+    left: 15px;
+    top: 13px;
+ }
+ .group{
+
+    position: relative;
+    left: 70px;
+    top: 4px;
+ }
+ footer{
+    border: 1px solid;
+    height: 55px;
+    position: relative;
+    bottom:1500px;
+    background-color:  rgb(63, 2, 63);
+    line-height: 0px;
+    overflow: hidden;
+    width:100%;
+    
+    
+ }
+ .footer-text{
+   color: white;
+   position: relative;
+   bottom: 10px;
+ }
+ footer li{
+position: relative;
+right:-70px;
+
+ }
+  ul .top{
+    display: inline;
+    position: relative;
+left: 40px;
+top: -7px;
+font-size: larger;
+font-weight: bold;
+background-color: white;
+color: black;
+ }
+ section{
+    border: 1px solid;
+    height: 50px;
+    width: 700px;
+    position: relative;
+    left: 300px;
+    bottom: 750px;
+    
+    
+ }
+  .float{
+
+float: right;
+position: relative;
+left:-3px;
+top: 2px;
+border-radius: 3px;
+ }
+ .upside {
+  border: 1px solid;
+  width:88px;
+  position: relative;
+  left:590px;
+  height: 35px;
+  top: -40px;
+  border-radius:8px ;
+  } 
+  select{
+    background-color: rgb(92, 2, 92); 
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: larger;
+    position: relative;
+    bottom: 10px;
+  }
+
+  #monday{
+    background-color: white;
+    color: black;
+    font-size: small;
+    position: relative;
+    top:-25px;
+    left: 8px;
+    text-align: center; 
+  }
+ .main{
+    border: 1px solid;
+
+  }
+  .monday{
+   border: 1px solid;
+   background-color: white;
+   width: 150px;
+position: relative;
+left: 260px;
+border-radius: 50px;
+height: 30px;
+top: -3px;
+  }
+  .aqua{
+   height: 200px;
+   background-color: aliceblue;
+   position: relative;
+top: 10px;
+  }
+  .bot{
+   position: relative;
+   top: -50px;
+  }
+  .bot-2{
+   position: relative;
+   top: -20px;
+  }
+  .aqua-p{
+   color: rgb(2, 2, 161);
+   position: relative;
+   left: 90px;
+   top: 22px;
+  }
+  .slack{
+color: black;
+font-weight: bolder;
+position: relative;
+left: 40px;
+font-size: 20px;
+top:-10px;
+  }
+  .slack-2{
+   font-size: 15px;
+   font-weight: lighter;
+   position: relative;
+   left: 100px;
+   top:-20px;
+  }
+  .slack-3{
+   font-size: 17px;
+   font-weight: lighter;
+   position: relative;
+   left: 215px;
+   top:-50px;
+  }
+  .slack-4{
+   font-size: 17px;
+   font-weight: lighter;
+   position: relative;
+   left: 150px;
+   top:-30px;
+   color: rgb(2, 2, 161);
+  }
+  
+  
+  .aqua-p2{
+   color: rgb(2, 2, 161);
+   position: relative;
+   left: 180px;
+   top: -30px;
+  }
+  .aqua-p3{
+   color: rgb(2, 2, 161);
+   position: relative;
+   left: 300px;
+   top: -30px;
+  }
+  .ubawike{
+   position: relative;
+   top: -50px;
+   left: -px;
+  }
+  .box{
+   width: 50px;
+   height:50px;
+   background-color: navy;
+   position: relative;
+   left: 20px;
+   border-radius:5px ;
+   text-align: center;
+   font-size: 40px;
+   margin-bottom: 9px;
+   color: white;
+   top: 30px;
+  }
+  .chin {
+   color: black;
+font-weight: bolder;
+position: relative;
+left: 95px;
+font-size:20px;
+top: -12px;
+
+  }
+  .reply{
+   position: relative;
+   left: 80px;
+   top: -20px;
+  }
+  a{
+   font-size: medium;
+color: white;   
+  }
+    .hover {
+color: blue;
+  }
+  :hover.hover-2{
+   background-color: blue;
+   position: relative;
+   height: 50px;
+   
+  }
+  .ubawike-1{
+   position: relative;
+   top:-80px;
+   
+  }
+  #monday-2{
+   background-color: white;
+    color: grey;
+    font-size:14px ;
+    position: relative;
+    top:-10px;
+    left: 100px;
+  }
+  #index{
+   border: 1px solid;
+   width: 578px;
+   position: relative;
+   left: 100px;
+   border-radius: 10px;
+   height: 60px;
+   border-color:rgba(162, 159, 159);
+   border-bottom: none;
+   
+   
+  }
+  .input2{
+   background-color: white;
+   width: 500px;
+   position: relative;
+   top: 30px;
+   color: black;
+   left: 20px;
+   border: none;
+  }
+   .input2::placeholder  {
+   color: black;
+   
+  }
+  .doc {
+   display: inline;
+   position: relative;
+   left: 40px;
+   top: -55px;
+  }
+  .html{
+   color: greenyellow;
+  }
+  .lang{
+   color:blue;
+  }
+  .en{
+   color:red;
+  }
+  em li {
+   display: inline;
+   position: relative;
+   left: -100px;
+   top: -35px;
+  }
+  #text-area{
+   border: 1px solid;
+   width: 630px;
+   position: relative;
+   left: -50px;
+   border-color:rgba(162, 159, 159);
+   border-radius: 15px;
+   height:130px;
+   top: -20px;
+  }
+  .text-div{
+   border: 1px solid;
+   height: 40px;
+   background-color:rgba(243, 242, 242, 0.618);
+   border-radius: 7px;
+   position: relative;
+   top: 1px;
+   border: none;
+   width: 628px;
+  }
+  .text-image{
+   margin-left: 20px;
+   position: relative;
+   left: -15px;
+   
+  }
+  ul .text-ul{
+
+  display: flex;
+   position: relative;
+   top: 9px;
+   margin-left: 5px;
+  }
+   .text-ul .text-bot{
+   position: relative;
+   left: 15px;
+   top: 18px;
+  }
+  .text-div-1{
+   border: 1px solid;
+   height: 40px;
+   
+   border-radius: 7px;
+   position: relative;
+   top: 23px;
+   border: none;
+  }
+  .text-image-2{
+   position: relative;
+   left: 310px;
+  }
+  
+  #select{
+   position: relative;
+   left: 310px;
+background:none;
+color: black;
+top: 10px;
+  }
+  .cont-3{
+   border: 1px solid;
+   width: 520px;
+   float: right;
+   position: relative;
+   bottom: 1500px;
+   height:750px ;
+   overflow: hidden;
+   
+  }
+  .up-div{
+   border: 1px solid;
+   height: 50px;
+  }
+.up-div .up-text{
+display: inline-block;
+font-weight: bolder;
+font-size: 20px;
+position: relative;
+top: 10px;
+left: 20px;
+  }
+  .up-text-2{
+   position: relative;
+   left: 98px;
+   top: -10px;
+  }
+  .hr{
+   width: 410px;
+   position: relative;
+   left: 90px;
+  }
+  p{
+   position: relative;
+   top: 10px;
+   left: 20px;
+  }
+  .unknown{
+   color: black;
+font-weight: bolder;
+position: relative;
+
+font-size:20px;
+top: -15px;
+  }
+  .unknown2{
+   color: rgb(2, 2, 161);
+   position: relative;
+   left: 160px;
+   top: -35px;
+  }
+  .unknown3{
+   font-size: 15px;
+   font-weight: lighter;
+   position: relative;
+   left: 75px;
+   top:-33px;
+  }
+  .unknown4{
+   color: rgb(2, 2, 161);
+   position: relative;
+   left: 190px;
+   top: -35px;
+  }
+  .un-ul{
+   position: relative;
+   top: -25px;
+  }
+  .un-ul2{
+   position: relative;
+   top: -40px;
+  }
+  .burna{
+   border-radius: 5px;
+   position: relative;
+   left: 20px;
+   top:5px ;
+   
+  }
+  .sort{
+   position: relative;
+   top: -0px;
+  }
+  .binary{
+   border: 1px solid;
+   width: 420px;
+   position: relative;
+   left: 80px;
+   height: 70px;
+   border-radius: 20px;
+  }
+  .rar{
+   position: relative;
+   left: 45px;
+   top: -40px;
+
+  }
+  .binary2{
+   border: 1px solid;
+   width: 420px;
+   position: relative;
+   left: 80px;
+   height: 70px;
+   border-radius: 20px;
+   position: relative;
+   top: 20px;
+  }
+  #text-area2{
+   border: 1px solid;
+   width: 450px;
+   position: relative;
+   left: 50px;
+   border-color:rgb(162, 159, 159);
+   border-radius: 15px;
+   height:130px;
+   top: 65px;
+  }
+  .input3{
+   background-color: white;
+   width: 400px;
+   position: relative;
+   top: 30px;
+   color: black;
+   left: 20px;
+   border: none;
+  }
+  .input3::placeholder{
+   color: black;
+  }
+  .text-div2{
+   border: 1px solid;
+   height: 40px;
+   background-color:rgba(243, 242, 242, 0.618);
+   border-radius: 7px;
+   position: relative;
+   top: 1px;
+   border: none;
+   width: 448px;
+  }
+  .text-image-3{
+   position: relative;
+   left: 130px;
+  }
+  .checked{
+   position: relative;
+   top: 80px;
+   border: 1px solid;
+   width: 22px;
+   left: 60px;
+   height:20px;
+   border-radius: 4px;
+  }
+  .checkp{
+   position: relative;
+   left:90px;
+   top: 40px;
+  }
+  .lock-check{
+   position: relative;
+   left: -0px;
+   top:8px;
+  }
+
+
+  
+  
+
+
