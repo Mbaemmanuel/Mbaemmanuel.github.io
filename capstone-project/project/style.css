@@ -14,6 +14,7 @@ position:relative;
 }
 
 
+
 .parent-cont .aside   section{
 display:flex;
 overflow: hidden;
@@ -110,7 +111,7 @@ left: 1380px;
     width: 8px;
     height: 8px;
     position: relative;
-    top: 30px;
+    top: 2px;
     left: 20px;
     border-radius: 10px;
     background-color: rgb(4, 169, 4);
@@ -123,7 +124,7 @@ left: 1380px;
     width: 15px;
     height: 15px;
     position: relative;
-    top: 37px;
+    top: px;
     left: 10px;
     background-color: blue;
     color: white;
@@ -171,25 +172,42 @@ height: 700px;
     left: 20px;
     
  }
+ .list{
+   margin-bottom: -5px;
+ }
   .image{
     position: relative;
     top: -24px;
     left: 255px;
     
-  
     
- }
+  
+  }
  .icon{
     position: relative;
-    top: -20px;
+    top: -80px;
     left: 200px;
     width: 70px;
  }
- span{
+ .icon2{
+position: relative;
+top: -5px;
+ }
+ .icon3{
+   color: white;
+   position: relative;
+   left: 50px;
+   top: -30px;
+
+ }
+
+  .cont li{
     color: white;
     position: relative;
-    left: 20px;
-    top:13px;
+    left: 50px;
+    top:-10px;
+    
+   
  }
  #block{
     position: relative;
@@ -210,8 +228,8 @@ height: 700px;
     border: 1px solid;
     height: 55px;
     position: relative;
-    bottom:1500px;
-    background-color:  rgb(63, 2, 63);
+    bottom:1620px;
+    background-color: black;
     line-height: 0px;
     overflow: hidden;
     width:100%;
@@ -299,7 +317,7 @@ height: 30px;
 top: -3px;
   }
   .aqua{
-   height: 200px;
+   height: 150px;
    background-color: aliceblue;
    position: relative;
 top: 10px;
@@ -310,7 +328,7 @@ top: 10px;
   }
   .bot-2{
    position: relative;
-   top: -20px;
+   top: -40px;
   }
   .aqua-p{
    color: rgb(2, 2, 161);
@@ -331,21 +349,28 @@ top:-10px;
    font-weight: lighter;
    position: relative;
    left: 100px;
-   top:-20px;
+   top:-40px;
+  }
+  .slack-h{
+   font-size: 15px;
+   font-weight: lighter;
+   position: relative;
+   left: 100px;
+   top:-30px;
   }
   .slack-3{
    font-size: 17px;
    font-weight: lighter;
    position: relative;
    left: 215px;
-   top:-50px;
+   top:-75px;
   }
   .slack-4{
    font-size: 17px;
    font-weight: lighter;
    position: relative;
    left: 150px;
-   top:-30px;
+   top:-55px;
    color: rgb(2, 2, 161);
   }
   
@@ -360,12 +385,12 @@ top:-10px;
    color: rgb(2, 2, 161);
    position: relative;
    left: 300px;
-   top: -30px;
+   top: -45px;
   }
   .ubawike{
    position: relative;
-   top: -50px;
-   left: -px;
+   top: -90px;
+   
   }
   .box{
    width: 50px;
@@ -386,13 +411,13 @@ font-weight: bolder;
 position: relative;
 left: 95px;
 font-size:20px;
-top: -12px;
+top: -25px;
 
   }
   .reply{
    position: relative;
    left: 80px;
-   top: -20px;
+   top: -45px;
   }
   a{
    font-size: medium;
@@ -409,7 +434,7 @@ color: blue;
   }
   .ubawike-1{
    position: relative;
-   top:-80px;
+   top:-100px;
    
   }
   #monday-2{
@@ -417,8 +442,12 @@ color: blue;
     color: grey;
     font-size:14px ;
     position: relative;
-    top:-10px;
+    top:-35px;
     left: 100px;
+  }
+  #double{
+   position: relative;
+   top: -25px;
   }
   #index{
    border: 1px solid;
@@ -566,7 +595,7 @@ left: 20px;
    color: black;
 font-weight: bolder;
 position: relative;
-
+left: 25px;
 font-size:20px;
 top: -15px;
   }
@@ -615,6 +644,7 @@ top: -15px;
    left: 80px;
    height: 70px;
    border-radius: 20px;
+   top: -50px;
   }
   .rar{
    position: relative;
@@ -630,7 +660,7 @@ top: -15px;
    height: 70px;
    border-radius: 20px;
    position: relative;
-   top: 20px;
+   top: -30px;
   }
   #text-area2{
    border: 1px solid;
@@ -640,7 +670,7 @@ top: -15px;
    border-color:rgb(162, 159, 159);
    border-radius: 15px;
    height:130px;
-   top: 65px;
+   top: -0px;
   }
   .input3{
    background-color: white;
@@ -670,7 +700,7 @@ top: -15px;
   }
   .checked{
    position: relative;
-   top: 80px;
+   top: 20px;
    border: 1px solid;
    width: 22px;
    left: 60px;
@@ -680,7 +710,7 @@ top: -15px;
   .checkp{
    position: relative;
    left:90px;
-   top: 40px;
+   top: -20px;
   }
   .lock-check{
    position: relative;
