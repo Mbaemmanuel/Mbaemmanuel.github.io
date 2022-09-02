@@ -1,0 +1,470 @@
+
+
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    
+  }
+  body{
+   min-width: 1500px;
+  
+  }
+  
+  
+  h1 {
+    margin-bottom: 15px;
+  }
+  p{
+    
+    
+    width: 90%;
+    height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: sans-serif;
+    color: white;
+  }
+  /* Simple Responsive Framework. */
+  .row {
+    width: 100%;
+  }
+  .col-lg-12 .col-md-12 .col-sm-6{
+   position: relative; 
+  
+}
+.hero{
+  position: relative;
+  top: -90px;
+  height: 700px;
+  background-image: url(image/bg-hero-desktop.svg);
+  background-color: #EDFEFF;
+  
+  
+}
+.chat{
+  position: relative;
+  top: 120px;
+  left: 50px;
+  width: 50px;
+}.h3{
+  position: relative;
+  left: 100px;
+  top: 70px;
+  font-size: xx-large;
+}
+.h4{
+  position: relative;
+  left: 350px;
+  top: -180px;
+  color: white;
+  font-size: xx-large;
+}
+.chat2{
+ position: relative;
+ top: -130px;
+ left: 295px;
+ width: 50px; 
+}
+.footlist{
+  position: relative;
+  top: -110px;
+}
+.mockup{
+  position: relative;
+  left: 950px;
+  top: 100px;
+  width: 500px;
+  height: 400px;
+
+}
+.try{
+  position: relative;
+  top:790px;
+  left: 500px; 
+}
+.up-button{
+  position: relative;
+  top: -760px;
+  left: 830px;
+  width: 130px;
+  height: 35px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px;
+}
+ul h3.fans{
+  position: relative;
+  top: -180px;
+  font-size: xx-large;
+  width: 350px;
+}
+ul li{
+  position: relative;
+  top: -150px;
+  width: 400px;
+  left: 95px;
+  
+}
+button{
+  position: relative;
+  top: -100px;
+  left: 80px;
+  width: 170px;
+  height: 35px;
+  background-color: rgb(254, 56, 204);
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px  ;
+}
+.button{
+  position: relative;
+  top: 90px;
+  left: 40%;
+  width: 170px;
+  height: 35px;
+  background-color: rgb(254, 56, 204);
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px  ;
+}
+h3{
+  position: relative;
+  left: 90px;
+  top: 20px;
+  font-size: 35px;
+}
+.photo{
+ background-color: white;
+ width:95% ;
+ position: relative;
+ left: 40px; 
+ top: 60px;
+ min-height:400px ;
+ box-shadow: 0 0 4px;
+ border-radius: 10px;
+
+} 
+.together{ 
+  position: relative;
+  left: 960px;
+  top: -20px;
+}
+.grow{
+  position: relative;
+  left: 50px;
+  top: 200px;
+}
+.li{
+  width: 400px;
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+ .grow2{
+  position: relative;
+  left: 970px;
+  top: 200px;
+}
+#text{
+  position: relative;
+  left: 960px;
+  width: 400px;
+  position: relative;
+  top: 200px;
+
+}
+.together2{
+  position: relative;
+left: 50px;
+bottom:50px ;
+}
+
+.ready{
+background-color: white;
+box-shadow: 0 0 6px;
+position: relative;
+top:100px ;
+width: 50%;
+left: 400px;
+height: 200px;
+border-radius: 10px;
+
+}
+.footer{
+  height: 400px;
+  width: 100%;
+  background-color: rgb(6, 41, 61);
+  color: white;
+}
+span{
+position: relative;
+
+left: 220px;
+  color:white;
+}
+.loca{
+  position: relative;
+  
+  left: 205px;
+}
+.icons{
+  position: relative;
+  top: -90px;
+  
+  }
+  .display{
+    position: relative;
+    top: 300px;
+    left: 50%;
+    color: white;
+    
+  }
+  .about{
+    position: relative;
+    top: -550px;
+  }
+  .blog {
+    position: relative;
+    left: 180px;
+    top: -650px;
+  }
+
+
+   .inline{
+    position: relative;
+    left:320px;
+    top: -800px;
+     
+  }
+  .copy{
+    position: relative;
+    right:-50px;
+    font-size: 10px;
+    bottom: -20px;
+  }
+
+  /******mobile phone only******/
+
+@media(max-width:375px){
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12
+
+
+.col-sm-6{
+  width: 100%;
+  
+}
+
+.hero{
+  background-image: url(image/bg-hero-mobile.svg);
+  background-color: #EDFEFF;
+  width:890px;
+  height: 950px;
+}
+.chat{
+  position: relative;
+  top: 120px;
+  left: 5px;
+  width: 30px;
+}.h3{
+  position: relative;
+  left: 40px;
+  top: 90px;
+  font-size: large;
+}
+.h4{
+  position: relative;
+  left: 0px;
+  top: -180px;
+  color: white;
+  font-size: large;
+}
+.chat2{
+ position: relative;
+ top: -150px;
+ left: -30px;
+ width: 2%; 
+}
+.footlist{
+  position: relative;
+  top: -500px;
+  
+}
+.mockup{
+  position: relative;
+  left: 20px;
+  top: 500px;
+  width: 350px;
+  height: 350px;
+
+}
+.up-button{
+  position: relative;
+  top: -720px;
+  left: -235px;
+  width: 100px;
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px  ;
+}
+ul h3.fans{
+  position: relative;
+  bottom: 999px;
+  font-size: xx-large;
+  width: 350px;
+  left: 0px;
+}
+ul li{
+  position: relative;
+  
+  width: 300px;
+  left: 0px;
+  
+  
+}
+button{
+  position: relative;
+  bottom: 999px;
+  left: 20px;
+  width: 250px;
+  height: 35px;
+  background-color: rgb(254, 56, 204);
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px  ;
+}
+.button{
+  position: relative;
+  top: 70px;
+  left: 20%;
+  width: 195px;
+  height: 35px;
+  background-color: rgb(254, 56, 204);
+  border-radius: 20px;
+  border: none;
+  box-shadow: black 0 0 8px  ;
+}
+h3{
+  position: relative;
+  left: 13px;
+  top: 45px;
+  font-size: 20px;
+}
+.photo{
+ background-color: white;
+ width:340px ;
+ position: relative;
+ left: 15px; 
+ top: 60px;
+ min-height:600px ;
+ box-shadow: 0 0 4px;
+border-radius: 10px;
+} 
+.together{ 
+  position: relative;
+  left: 25px;
+  top: -20px;
+}
+.grow{
+  position: relative;
+  left:100px;
+  top: 400px;
+  font-size: 20px;
+  
+}
+.li{
+  width: 270px;
+  position: relative;
+  top: 430px;
+  left: 50px;
+  
+}
+ .grow2{
+  position: relative;
+  left: 35px;
+  top: 400px;
+  font-size: 25px;
+}
+#text{
+  position: relative;
+  left:35px;
+  width: 270px;
+  position: relative;
+  top: 435px;
+
+}
+.together2{
+  position: relative;
+left: 40px;
+bottom:0px ;
+}
+
+.ready{
+background-color: white;
+box-shadow: 0 0 6px;
+position: relative;
+top:100px ;
+width: 23%;
+left: 15px;
+height: 160px;
+border-radius: 10px;
+
+}
+.footer{
+  height: 800px;
+  width: 25%;
+  background-color: rgb(6, 41, 61);
+  color: white;
+}
+span{
+position: relative;
+top:px;
+left: 20px;
+  color:white;
+}
+.loca{
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+}
+.icons{
+  position: relative;
+  top: -170px;
+  
+  }
+  .display{
+    position: relative;
+    top:-400px;
+    left: -300px;
+    color: white;
+    
+  }
+  .about{
+    position: relative;
+    top: -50px;
+    left: 300px;
+
+  }
+  .blog {
+    position: relative;
+    left: 300px;
+    top: -10px;
+  }
+
+
+   .inline{
+    position: relative;
+    left:420px;
+    top: 50px;
+   }
+   .copy{
+    position: relative;
+    bottom: 150px;
+    left: -200px;
+   }
+  }
