@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form id="signin-ui" class="cont1">
+      <h2 class="welcome">Welcome to FCMB bank of nigeria</h2>
+      <p class="name">please enter your name and your password</p>
+      <input
+        class="hello"
+        type="text"
+        placeholder="Enter your name"
+        id="name"
+      />
+      <label for="password"></label>
+      <input
+        class="hello"
+        type="password"
+        placeholder="Enter your password"
+        id="password"
+      />
+      <button class="button">Submit</button>
+    </form>
+
+    <div id="incorrect-ui" style="display: none">
+      Incorrect Password, Try Again, You will be banned after 4 attempts.
+    </div>
+
+    <div id="banned-ui" style="display: none">
+      You have tried 4 times, and you are now banned from using this service
+    </div>
+
+    <form id="transcation-ui" class="cont2" style="display: none">
+      <h4 class="select">Select transcation</h4>
+      <div class="inputs">
+        <input type="radio" name="transaction" id="checkBalance"> Check
+        Account Balance
+        <input type="radio" name="transaction" id="withdraw " value="Male" />
+        Withdraw
+        <input
+          type="radio"
+          name="transaction"
+          id="deposit"
+          value="Male"
+        />Deposit
+        <input type="radio" name="transaction" id="sign-out" value="Male" />
+        Sign-out
+      </div>
+      <button class="sub">Submit</button>
+    </form>
+
+    <div id="transactionMessage-ui"></div>
+
+    <div id="exit-ui" style="display: none">
+      Thank you for Banking with us, Sign-in if you want perform another
+      Transcation
+    </div>
+
+    <div>
+      <button id="btt">sign-Up</button>
+    </div>
+
+    <script src="A1-21-22.js"></script>
+  </body>
+</html>

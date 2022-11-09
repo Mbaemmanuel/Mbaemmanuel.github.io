@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="todo.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Task list 2022</h1>
+      <form action="" id="task_form">
+        <input
+          type="text"
+          id="new_taskinput"
+          placeholder="What do you have planned"
+        />
+        <input type="submit" value="at_task" id="new_tasksubmit" />
+      </form>
+    </header>
+    <main>
+      <section class="task_list">
+        <h2>Tasks</h2>
+        <div id="task">
+          <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="My shiny text" />
+            </div>
+
+            <div class="action">
+              <img class="edit" src="image/edit.png" alt="" width="40px">
+              <button class="delete">Delete</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main> 
+
+    <script src="java.js"></script>
+  </body>
+</html>

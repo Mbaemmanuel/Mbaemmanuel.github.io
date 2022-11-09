@@ -1,0 +1,184 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'poppins' sans-serif;
+    
+}
+body{
+    background-image: url(image/Background.jpg);
+}
+.cont1{
+border:1px solid;
+height: 230px;
+width: 50%;
+background-color: rgba(27, 27 ,50 , 0.8);
+position: relative;
+left: 350px;
+top: 200px;
+border-radius:10px ;
+
+}
+.welcome{
+    text-align: center;
+    color: white;
+}
+.name{
+    text-align: center;
+    font-size: small;
+    color: white;
+
+}
+.hello{
+    float: left;
+    height: 45px;
+    width: 45%;
+    
+    outline:none;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width:2px ;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+    position: relative;
+    left:20px ;
+    top: 10px;
+    }
+    input:focus,input:valid{
+        border-color:green;
+    }
+    form .gender-details{
+        font-size: 20px;
+        font-weight: 500;
+    }
+    form .gender-details .category{
+        width: 80%;
+    margin: 14px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .gender-details .category label{
+    display: flex;
+    float: right;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    right:588px;
+    margin-left: 10px;
+    color: white;
+    }
+    #withdraw:checked,#checkBalance{
+        height: 18px;
+        width: 18px;
+        background: black;
+        border-radius: 50%;
+        margin-right: 10px;
+        border: 5px solid transparent;
+        transition: all 0.3s ease;
+
+    }
+    
+
+        
+        
+    
+    #withdraw:checked ,#deposite:checked,#sign_in:checked,#checkBalance:checked{
+        border-color:green;
+        background: black;
+        position: relative;
+        
+        
+        
+    }
+     
+        
+    
+     #button{
+        height: 45px;
+        margin: 45px 0;
+        position: relative;
+        left: 650px;
+        top: -10px;
+        
+    }
+     #button {
+        height:45px;
+        width: 70px;
+    outline: none;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    
+    
+    }
+    .sub{
+
+        color: white;
+        background-color:black ;
+        position: relative;
+        left: 240px;
+        top: 50px;
+        height: 50px;
+        width: 80px;
+        border-radius: 5px;
+    }
+    .cont2{
+        height: 230px;
+        width: 40%;
+        margin-top: 150px;
+        background:linear-gradient( rgb(29, 152, 206),white,rgb(29, 152, 201)) ;
+        border-radius: 10px;
+        position: relative;
+        left: 385px;
+        padding-top: 20px;
+        box-shadow:white 0 0 900px;
+        
+    }
+    .vvv{
+      position: relative;
+      left: 500px;
+      margin-left: 20px;
+      
+    }
+    .button{
+        width: 100px;
+        height: 50px;
+        position: relative;
+        top: 30px;
+        right: -550px;
+        font-size: large;
+        border-radius: 5px;
+        background-color: red;
+        box-shadow: 0 0 8px ;
+    }
+    .check_button:hover{
+background-color: green;
+    }
+    .select{
+        text-align: center;
+    }
+    .inputs{
+        text-align: center;
+    }
+    
+    #btt{
+        position: relative;
+        left: 380px;
+        width: 100px;
+        height: 50px;
+        box-shadow: 0 0 8px ;
+        font-size: large;
+        border-radius: 5px;
+        top: 140px;
+        border: none;
+        
+    }
+
+
+
+
+
+
+    
