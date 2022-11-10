@@ -27,15 +27,20 @@
 
     const task_action_el = document.createElement('div')
     task_action_el.classList.add('action');
-    const task_edit_el = document.createElement('img');
+    const task_edit_el = document.createElement('button');
     task_edit_el.classList.add('edit')
-    task_edit_el.innerHTML = "";
+    task_edit_el.innerHTML = "edit";
+
+    const task_mark_el = document.createElement('button');
+    task_mark_el.classList.add('line')
+    task_mark_el.innerHTML = "mark"
 
     const task_delete_el = document.createElement('button');
     task_delete_el.classList.add('delete');
     task_delete_el.innerHTML = "delete";
     task_action_el.appendChild(task_edit_el)
      task_action_el.appendChild(task_delete_el)
+     task_action_el.appendChild(task_mark_el)
 
     task_el.appendChild(task_action_el);
 
@@ -51,11 +56,17 @@
     task_edit_el.innerText = 'save';
     }
     else{
-    task_input_el.setAttribute("readonly")
+    task_input_el.setAttribute("readonly","readonly")
     task_input_el.innerText = "edit"
     }
 
   } )
+
+  task_mark_el.addEventListener('click,', () => {
+if(input.contains('text') == 'mark'){
+  document.getElementById('new_taskinput').style.textDecoration = 'line-through';
+}
+  })
 
   task_delete_el.addEventListener('click', () => {
      list_el.removeChild(task_el)
