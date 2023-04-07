@@ -254,14 +254,14 @@ left: 220px;
 
 
 .col-sm-6{
-  width: 100%;
+  width:;
   
 }
 
 .hero{
   background-image: url(image/bg-hero-mobile.svg);
   background-color: #EDFEFF;
-  width:890px;
+  width:500px;
   height: 950px;
 }
 .chat{

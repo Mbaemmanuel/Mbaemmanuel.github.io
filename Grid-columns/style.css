@@ -20,6 +20,7 @@ p {
 .row {
   width: 100%;
 }
+ 
 /********** Large devices only **********/
   @media (min-width:1200px) {
 
